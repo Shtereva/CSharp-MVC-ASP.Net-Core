@@ -1,0 +1,13 @@
+﻿@model CatViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>@Model.Name</h1>
+
+<img src="@Model.ImageUrl" alt="@Model.Name" style="max-width: 300px"/>
+<p>Age: <strong>@Model.Age</strong></p>
+<p>Breed: <strong>@Model.Breed</strong></p>
+
+

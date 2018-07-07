@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Fluffy Duffy Munchkin Cats";
+}
+
+@model List<CatNameViewModel>
+
+<h1>Fluffy Duffy Munchkin Cats</h1>
+
+<ul>
+    @foreach (var cat in Model)
+    {
+        <li>
+            <a href="/cats/details/@cat.Id">@cat.Name</a>
+        </li>
+    }
+</ul>
+
+<a href="/cats/add" type="button">Add Cat</a>

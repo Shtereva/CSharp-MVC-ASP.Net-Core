@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDMC.App", "FDMC.App\FDMC.App.csproj", "{A9BA684D-CDE3-4CD7-AB93-DA0503C12EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDMC.Data", "FDMC.Data\FDMC.Data.csproj", "{265396F3-5981-4C6C-B7B8-71B740CC4F91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDMC.Models", "FDMC.Models\FDMC.Models.csproj", "{1F7D359B-7C35-4EF5-9CAD-BB4FC06399C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BA684D-CDE3-4CD7-AB93-DA0503C12EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BA684D-CDE3-4CD7-AB93-DA0503C12EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BA684D-CDE3-4CD7-AB93-DA0503C12EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BA684D-CDE3-4CD7-AB93-DA0503C12EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265396F3-5981-4C6C-B7B8-71B740CC4F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265396F3-5981-4C6C-B7B8-71B740CC4F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265396F3-5981-4C6C-B7B8-71B740CC4F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265396F3-5981-4C6C-B7B8-71B740CC4F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7D359B-7C35-4EF5-9CAD-BB4FC06399C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7D359B-7C35-4EF5-9CAD-BB4FC06399C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7D359B-7C35-4EF5-9CAD-BB4FC06399C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7D359B-7C35-4EF5-9CAD-BB4FC06399C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4CD97DA-0436-4C66-B199-66ABA9CE0ABC}
+	EndGlobalSection
+EndGlobal
