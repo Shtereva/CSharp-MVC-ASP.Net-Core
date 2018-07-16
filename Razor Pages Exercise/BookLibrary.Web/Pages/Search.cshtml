@@ -1,0 +1,20 @@
+﻿@page
+@model SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h2>Search results: "@Model.SearchTerm"</h2>
+
+<ul>
+    @foreach (var book in Model.Books)
+    {
+    <li><a asp-page="Books/Details" asp-route-id="@book.BookId">@book.Title</a> (book)</li>
+    }
+    
+    @foreach (var author in @Model.Authors)
+    {
+    <li><a asp-page="Authors/Details" asp-route-id="@author.AuthorId">@author.Name</a> (author)</li>
+    }
+</ul>
+

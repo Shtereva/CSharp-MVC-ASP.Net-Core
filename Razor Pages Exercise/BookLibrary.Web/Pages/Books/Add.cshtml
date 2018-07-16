@@ -1,0 +1,29 @@
+﻿@page 
+@model AddModel
+
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<form method="post">
+    <div class="form-group">
+        <div class="alert-danger" asp-validation-summary="All"></div>
+        <label asp-for="BookModel.Title"></label>
+        <input type="text" asp-for="BookModel.Title" class="form-control" placeholder="Enter Title">
+    </div>
+    <div class="form-group">
+        <label asp-for="BookModel.Author"></label>
+        <input type="text" asp-for="BookModel.Author" class="form-control" placeholder="Enter Author">
+    </div>
+    <div class="form-group">
+        <label asp-for="BookModel.ShortDescription"></label>
+        <textarea type="text" asp-for="BookModel.ShortDescription" class="form-control" placeholder="Enter Description" maxlength="255"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookModel.CoverImg"></label>
+        <input type="text" asp-for="BookModel.CoverImg" class="form-control" placeholder="Enter Image Url">
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+    <button type="submit" class="btn btn-dark" asp-page="Index">Cancel</button>
+</form>
+

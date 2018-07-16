@@ -1,0 +1,16 @@
+﻿@page "/Authors/Details/{id}"
+@model DetailsModel
+
+<h2>@Model.AuthorDetails.AuthorName</h2>
+
+<ul>
+    @foreach (var book in @Model.AuthorDetails.Books)
+    {
+        <li>
+            <p>
+                 <a asp-page="Books/Details" asp-route-id="@book.Id">@book.BookTitle</a> (@book.Status)
+            </p>
+        </li>
+    }
+</ul>
+
