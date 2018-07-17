@@ -25,6 +25,7 @@
         {
             <a class="btn btn-dark" asp-page="Borrow" asp-page-handler="Return" asp-route-bookId="@Model.RouteData.Values["id"]">Return Book</a>
         }
+        <a class="btn btn-dark" asp-page="Status" asp-route-bookId="@Model.RouteData.Values["id"]">Show History</a>
 
     </div>
 </div>

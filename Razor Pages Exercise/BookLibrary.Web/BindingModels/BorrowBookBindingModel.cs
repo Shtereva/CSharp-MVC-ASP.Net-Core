@@ -10,8 +10,9 @@
         [Display(Name = "Name")]
         public string Name { get; set; }
 
+        [Required]
         [Display(Name = "Start Date")]
-        public DateTime? StartDate { get; set; } = DateTime.Today;
+        public DateTime StartDate { get; set; }
 
         [Display(Name = "End Date")]
         public DateTime? EndDate { get; set; }

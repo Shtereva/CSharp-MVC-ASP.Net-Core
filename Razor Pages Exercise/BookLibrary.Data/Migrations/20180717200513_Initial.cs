@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BookLibrary.Data.Migrations
@@ -35,6 +36,20 @@ namespace BookLibrary.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "History",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    StartDate = table.Column<DateTime>(nullable: false),
+                    EndDate = table.Column<DateTime>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_History", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Books",
                 columns: table => new
                 {
@@ -53,6 +68,30 @@ namespace BookLibrary.Data.Migrations
                         name: "FK_Books_Authors_AuthorId",
                         column: x => x.AuthorId,
                         principalTable: "Authors",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "BookHistory",
+                columns: table => new
+                {
+                    HistoryId = table.Column<int>(nullable: false),
+                    BookId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BookHistory", x => new { x.BookId, x.HistoryId });
+                    table.ForeignKey(
+                        name: "FK_BookHistory_Books_BookId",
+                        column: x => x.BookId,
+                        principalTable: "Books",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_BookHistory_History_HistoryId",
+                        column: x => x.HistoryId,
+                        principalTable: "History",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -82,6 +121,11 @@ namespace BookLibrary.Data.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_BookHistory_HistoryId",
+                table: "BookHistory",
+                column: "HistoryId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Books_AuthorId",
                 table: "Books",
                 column: "AuthorId");
@@ -95,7 +139,13 @@ namespace BookLibrary.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "BookHistory");
+
+            migrationBuilder.DropTable(
                 name: "BooksBorrower");
+
+            migrationBuilder.DropTable(
+                name: "History");
 
             migrationBuilder.DropTable(
                 name: "Books");

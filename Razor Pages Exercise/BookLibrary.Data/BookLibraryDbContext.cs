@@ -45,6 +45,23 @@
                 .HasMany(bo => bo.Books)
                 .WithOne(b => b.Borrower)
                 .HasForeignKey(b => b.BorrowerId);
+
+            modelBuilder.Entity<Book>()
+                .HasMany(b => b.History)
+                .WithOne(h => h.Book)
+                .HasForeignKey(h => h.BookId);
+
+            modelBuilder.Entity<History>()
+                .HasMany(h => h.Books)
+                .WithOne(b => b.History)
+                .HasForeignKey(b => b.HistoryId);
+
+            modelBuilder.Entity<BookHistory>()
+                .HasKey(bh => new
+                {
+                    bh.BookId,
+                    bh.HistoryId
+                });
         }
     }
 }

@@ -16,11 +16,11 @@
         public BorrowBookBindingModel BorrowBookModel { get; set; }
 
         public string[] BorrowersNames { get; set; }
-        public string ErrorMessage { get; set; }
 
         public BorrowModel(BookLibraryDbContext db)
         {
             this.db = db;
+            this.BorrowersNames = this.db.Borrowers.Select(b => b.Name).ToArray();
         }
 
         public IActionResult OnGet(int bookId)
@@ -30,34 +30,46 @@
                 return this.RedirectToPage("/Index");
             }
 
-            this.BorrowersNames = this.db.Borrowers.Select(b => b.Name).ToArray();
             return this.Page();
         }
         public IActionResult OnPost(int bookId)
         {
-            
+            if (this.BorrowBookModel.EndDate != null && this.BorrowBookModel.StartDate > this.BorrowBookModel.EndDate)
+            {
+                return this.Page();
+            }
+
             var borrower = this.db.Borrowers
                 .Where(b => b.Name == this.BorrowBookModel.Name)
                 .Include(b => b.Books)
                 .FirstOrDefault();
 
-            this.ViewData["ErrorMessage"] = this.ErrorMessage;
+            if (borrower == null)
+            {
+                return this.Page();
+            }
+
 
             if (!this.ModelState.IsValid )
             {
                 return this.Page();
             }
 
-            if (borrower == null)
-            {
-                this.ErrorMessage = "No such borrower.";
-                return this.Page();
-            }
-
             borrower.Books.Add(new BooksBorrower(){ BookId = bookId});
 
             var book = this.db.Books.Find(bookId);
+
             book.Status = "Borrowed";
+
+            book.History.Add(new BookHistory()
+            {
+                BookId = bookId,
+                History = new History()
+                {
+                    StartDate = this.BorrowBookModel.StartDate,
+                    EndDate = this.BorrowBookModel.EndDate
+                }
+            });
 
             this.db.SaveChanges();
 
@@ -68,9 +80,19 @@
         {
             var book = this.db.Books.Find(bookId);
 
+            if (book == null || book.Status == "At Home")
+            {
+                return this.RedirectToPage("/Index");
+            }
+
             var borrower = this.db.Borrowers
                 .Include(b => b.Books)
                 .FirstOrDefault(b => b.Books.FirstOrDefault(bo => bo.BookId == bookId) != null);
+
+            if (borrower == null)
+            {
+                return this.RedirectToPage("/Index");
+            }
 
             var borrowerBook = borrower.Books.FirstOrDefault(b => b.BookId == bookId);
 

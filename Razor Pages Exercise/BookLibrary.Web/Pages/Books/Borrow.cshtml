@@ -7,10 +7,9 @@
 <form method="post">
     <div class="form-group">
         <div class="alert-danger" asp-validation-summary="All"></div>
-        <div class="alert-danger">@Model.ErrorMessage</div>
         <label asp-for="@Model.BorrowBookModel.Name"></label>
-        <select class="custom-select form-control" asp-for="@Model.BorrowBookModel.Name">
-            <option selected>Select Borrower</option>
+        <select class="custom-select form-control" required asp-for="@Model.BorrowBookModel.Name">
+            <option selected disabled="disabled">Select Borrower</option>
 
             @{
                 foreach (var name in Model.BorrowersNames)

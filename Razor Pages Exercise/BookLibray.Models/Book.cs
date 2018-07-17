@@ -20,6 +20,8 @@
         public int AuthorId { get; set; }
         public Author Author { get; set; }
 
+        public ICollection<BookHistory> History { get; set; } = new List<BookHistory>();
+
         public ICollection<BooksBorrower> Borrowers { get; set; } = new List<BooksBorrower>();
     }
 }

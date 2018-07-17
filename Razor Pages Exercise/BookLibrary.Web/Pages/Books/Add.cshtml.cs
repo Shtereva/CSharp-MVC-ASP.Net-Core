@@ -23,11 +23,11 @@
         {
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             if (!this.ModelState.IsValid)
             {
-                return;
+                return this.Page();
             }
 
             Author author = this.db.Authors.FirstOrDefault(a => a.Name == this.BookModel.Author);
@@ -49,6 +49,8 @@
 
             this.db.Add(book);
             this.db.SaveChanges();
+
+            return this.RedirectToPage("/Index");
         }
     }
 }

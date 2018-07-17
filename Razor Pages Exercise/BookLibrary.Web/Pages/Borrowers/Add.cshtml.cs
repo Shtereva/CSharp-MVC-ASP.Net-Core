@@ -18,11 +18,11 @@
             this.db = db;
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             if (!this.ModelState.IsValid || this.db.Borrowers.Any(b => b.Name == this.BorrowerModel.Name))
             {
-                return;
+                return this.Page();
             }
 
             var borrower = new Borrower()
@@ -33,6 +33,8 @@
 
             this.db.Add(borrower);
             this.db.SaveChanges();
+
+            return this.RedirectToPage("/Index");
         }
     }
 }
