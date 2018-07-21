@@ -1,0 +1,24 @@
+﻿@model List<SupplierViewModel>
+
+<div class="row">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Parts Offered</td>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var supplier in Model)
+        {
+            <tr>
+                <td>@supplier.Id</td>
+                <td>@supplier.Name</td>
+                <td>@supplier.PartsOffered</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+

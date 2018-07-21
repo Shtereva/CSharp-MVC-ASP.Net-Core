@@ -11,7 +11,6 @@
         {
         }
 
-
         public DbSet<Car> Cars { get; set; }
 
         public DbSet<Sale> Sales { get; set; }

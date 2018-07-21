@@ -1,0 +1,25 @@
+﻿@model List<AllCarsViewModel>
+
+<div class="row">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <td>Make</td>
+                <td>Model</td>
+                <td>Traveled Distance</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+
+                <tr>
+                    <td><a class="btn btn-default" href="@car.Id/parts">@car.Make</a></td>
+                    <td>@car.Model</td>
+                    <td>@car.TravelledDistance Km</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

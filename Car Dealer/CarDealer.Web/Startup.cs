@@ -30,6 +30,7 @@
 
             services.AddDbContext<CarDealerDbContext>(options =>
                 options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<CarDealerDbContext>();
 
@@ -58,6 +59,26 @@
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "all",
+                    template: "customers/all/{order}",
+                    defaults: new { controller = "Customers", action = "All" });
+
+                routes.MapRoute(
+                    name: "make",
+                    template: "cars/{make}",
+                    defaults: new {controller = "Cars", action = "CarsByMake"});
+
+                routes.MapRoute(
+                    name: "parts",
+                    template: "cars/{id}/parts",
+                    defaults: new { controller = "Cars", action = "Parts" });
+
+                routes.MapRoute(
+                    name: "type",
+                    template: "suppliers/{type}",
+                    defaults: new { controller = "Suppliers", action = "All" });
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
