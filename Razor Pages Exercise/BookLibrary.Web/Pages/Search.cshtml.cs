@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using Data;
+    using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
     using Views;
 
@@ -21,8 +22,12 @@
             this.db = db;
         }
 
-        public void OnGet(string searchTerm)
+        public IActionResult OnGet(string searchTerm)
         {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                return this.RedirectToPage("/Index");
+            }
             this.SearchTerm = searchTerm;
 
             this.Books = this.db.Books
@@ -42,6 +47,8 @@
                     Name = b.Author.Name
                 })
                 .ToList();
+
+            return this.Page();
         }
     }
 }

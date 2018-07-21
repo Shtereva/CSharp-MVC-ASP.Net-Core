@@ -9,12 +9,12 @@
 <ul>
     @foreach (var book in Model.Books)
     {
-    <li><a asp-page="Books/Details" asp-route-id="@book.BookId">@book.Title</a> (book)</li>
+    <li><a asp-page="/Books/Details" asp-route-id="@book.BookId">@book.Title</a> (book)</li>
     }
     
     @foreach (var author in @Model.Authors)
     {
-    <li><a asp-page="Authors/Details" asp-route-id="@author.AuthorId">@author.Name</a> (author)</li>
+    <li><a asp-page="/Authors/Details" asp-route-id="@author.AuthorId">@author.Name</a> (author)</li>
     }
 </ul>
 
