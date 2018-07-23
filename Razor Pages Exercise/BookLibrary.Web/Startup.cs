@@ -55,7 +55,7 @@ namespace BookLibrary.Web
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

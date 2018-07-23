@@ -2,7 +2,7 @@
 {
     using System.ComponentModel.DataAnnotations;
 
-    public class AddBookBindingModel
+    public class AddMovieBindingModel
     {
         [Required(ErrorMessage = "Title field is required")]
         [MaxLength(100, ErrorMessage = "Title can't be grater than 100 characters")]
@@ -19,9 +19,9 @@
         [Url]
         public string CoverImg { get; set; }
 
-        [Required(ErrorMessage = "Author field is required")]
+        [Required(ErrorMessage = "Director field is required")]
         [MaxLength(100, ErrorMessage = "Name can't be grater than 100 characters")]
-        [Display(Name = "Author")]
-        public string Author { get; set; }
+        [Display(Name = "Director")]
+        public string Director { get; set; }
     }
 }

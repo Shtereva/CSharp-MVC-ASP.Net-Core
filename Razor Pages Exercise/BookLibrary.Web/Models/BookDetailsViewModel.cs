@@ -1,7 +1,8 @@
-﻿namespace BookLibrary.Web.Views
+﻿namespace BookLibrary.Web.Models
 {
     public class BookDetailsViewModel
     {
+        public int Id { get; set; }
         public string Title { get; set; }
 
         public string Author { get; set; }

@@ -4,17 +4,28 @@
     ViewData["Title"] = "Search";
 }
 
+
 <h2>Search results: "@Model.SearchTerm"</h2>
 
 <ul>
     @foreach (var book in Model.Books)
     {
-    <li><a asp-page="/Books/Details" asp-route-id="@book.BookId">@book.Title</a> (book)</li>
+        <li><a asp-page="/Books/Details" asp-route-id="@book.BookId">@book.Title</a> (book)</li>
     }
-    
-    @foreach (var author in @Model.Authors)
+
+    @foreach (var author in Model.Authors)
     {
-    <li><a asp-page="/Authors/Details" asp-route-id="@author.AuthorId">@author.Name</a> (author)</li>
+        <li><a asp-page="/Authors/Details" asp-route-id="@author.AuthorId">@author.Name</a> (author)</li>
+    }
+
+    @foreach (var movie in Model.Movies)
+    {
+        <li><a asp-controller="Movies" asp-action="Details" asp-route-id="@movie.MovieId">@movie.Title</a> (movie)</li>
+    }
+
+    @foreach (var director in Model.Directors)
+    {
+        <li><a asp-controller="Directors" asp-action="Details" asp-route-id="@director.DirectorId">@director.Name</a> (director)</li>
     }
 </ul>
 

@@ -4,7 +4,7 @@
     using System.Linq;
     using Microsoft.AspNetCore.Mvc.RazorPages;
     using Data;
-    using Views;
+    using Models;
 
     public class IndexModel : PageModel
     {

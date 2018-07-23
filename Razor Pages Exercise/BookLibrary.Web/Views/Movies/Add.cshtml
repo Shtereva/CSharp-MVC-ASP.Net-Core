@@ -1,0 +1,37 @@
+﻿@model AddMovieBindingModel
+
+@{
+    ViewData["Title"] = "Add";
+    //Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input type="text" asp-for="Title" class="form-control" placeholder="Enter Title">
+        <span class="alert-danger" asp-validation-for="Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Director"></label>
+        <input type="text" asp-for="Director" class="form-control" placeholder="Enter Director">
+        <span class="alert-danger" asp-validation-for="Director"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ShortDescription"></label>
+        <textarea type="text" asp-for="ShortDescription" class="form-control" placeholder="Enter Description" maxlength="255"></textarea>
+        <span class="alert-danger" asp-validation-for="ShortDescription"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CoverImg"></label>
+        <input type="text" asp-for="CoverImg" class="form-control" placeholder="Enter Image Url">
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+    <a class="btn btn-dark" asp-page="/Index">Cancel</a>
+</form>
+
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

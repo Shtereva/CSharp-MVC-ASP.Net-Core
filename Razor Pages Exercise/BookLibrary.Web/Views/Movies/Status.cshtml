@@ -1,0 +1,29 @@
+﻿
+@model List<BorrowBookBindingModel>
+@{
+    ViewData["Title"] = "History";
+}
+
+<div class="row">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Borrowed At</th>
+                <th>Returned At</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Name</td>
+                    <td>@movie.StartDate</td>
+                    <td>@movie.EndDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

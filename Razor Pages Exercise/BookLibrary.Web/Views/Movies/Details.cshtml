@@ -1,0 +1,31 @@
+﻿@model Models.BookDetailsViewModel
+
+<div class="row">
+    <div class="col-12 text-center">
+        <img src="@Model.CoverImg" class="img-fluid float-left" />
+        <p>
+            <h3>@Model.Title</h3>
+        </p>
+        <p>
+            <h5>by @Model.Author</h5>
+        </p>
+        <p>
+            @Model.ShortDescription
+        </p>
+        <p>
+            <strong>Status:</strong> @Model.Status
+        </p>
+        @if (@Model.Status == "At Home")
+        {
+            <a class="btn btn-dark" asp-controller="Movies" asp-action="Borrow" asp-route-id="@Model.Id">Borrow Movie</a>
+        }
+        @if (@Model.Status == "Borrowed")
+        {
+            <a class="btn btn-dark" asp-controller="Movies" asp-action="Return" asp-route-Id="@Model.Id">Return Movie</a>
+        }
+        <a class="btn btn-dark" asp-controller="Movies" asp-action="Status" asp-route-Id="@Model.Id">Show History</a>
+
+    </div>
+</div>
+
+

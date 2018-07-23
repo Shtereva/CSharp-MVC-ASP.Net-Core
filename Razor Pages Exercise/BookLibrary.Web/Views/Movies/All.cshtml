@@ -1,0 +1,33 @@
+﻿@using Models
+@model List<AllBooksViewModel>
+@{
+    ViewData["Title"] = "All Movies";
+}
+
+<div class="row">
+    <h2 class="m-1">All Movies</h2>
+</div>
+<div class="row">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td><a asp-controller="Movies" asp-action="Details" asp-route-id="@movie.BookId">@movie.Title</a></td>
+                <td>@movie.Author</td>
+                <td>@movie.Status</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+
+

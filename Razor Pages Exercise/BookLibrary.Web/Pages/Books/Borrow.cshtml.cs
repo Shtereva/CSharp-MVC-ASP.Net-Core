@@ -1,5 +1,7 @@
 ﻿namespace BookLibrary.Web.Pages.Books
 {
+    using System;
+    using System.ComponentModel.DataAnnotations;
     using System.Linq;
     using BindingModels;
     using BookLibray.Models;
@@ -34,11 +36,6 @@
         }
         public IActionResult OnPost(int bookId)
         {
-            if (this.BorrowBookModel.EndDate != null && this.BorrowBookModel.StartDate > this.BorrowBookModel.EndDate)
-            {
-                return this.Page();
-            }
-
             var borrower = this.db.Borrowers
                 .Where(b => b.Name == this.BorrowBookModel.Name)
                 .Include(b => b.Books)
@@ -78,7 +75,10 @@
 
         public IActionResult OnGetReturn(int bookId)
         {
-            var book = this.db.Books.Find(bookId);
+            var book = this.db.Books
+                .Include(b => b.History)
+                .ThenInclude(h => h.History)
+                .FirstOrDefault(b => b.Id == bookId);
 
             if (book == null || book.Status == "At Home")
             {
@@ -94,11 +94,13 @@
                 return this.RedirectToPage("/Index");
             }
 
-            var borrowerBook = borrower.Books.FirstOrDefault(b => b.BookId == bookId);
+            var borrowerBook = borrower.Books
+                .FirstOrDefault(b => b.BookId == bookId);
 
             borrower.Books.Remove(borrowerBook);
 
             book.Status = "At Home";
+            book.History.Last().History.EndDate = DateTime.Today;
 
             this.db.SaveChanges();
 

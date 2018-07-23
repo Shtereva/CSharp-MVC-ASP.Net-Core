@@ -6,7 +6,7 @@
     using Data;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
-    using Views;
+    using Models;
 
     public class SearchModel : PageModel
     {
@@ -16,6 +16,10 @@
         public List<SearchBookViewModel> Books { get; set; }
 
         public List<SearchAuthorViewModel> Authors { get; set; }
+
+        public List<SearchDirectorViewModel> Directors { get; set; }
+
+        public List<SearchMovieViewModel> Movies { get; set; }
 
         public SearchModel(BookLibraryDbContext db)
         {
@@ -45,6 +49,24 @@
                 {
                     AuthorId = b.AuthorId,
                     Name = b.Author.Name
+                })
+                .ToList();
+
+            this.Movies = this.db.Movies
+                .Where(m => m.Title.Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                .Select(m => new SearchMovieViewModel()
+                {
+                    MovieId = m.Id,
+                    Title = m.Title
+                })
+                .ToList();
+
+            this.Directors = this.db.Movies
+                .Where(d => d.Director.Name.Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                .Select(d => new SearchDirectorViewModel()
+                {
+                    DirectorId = d.DirectorId,
+                    Name = d.Director.Name
                 })
                 .ToList();
 

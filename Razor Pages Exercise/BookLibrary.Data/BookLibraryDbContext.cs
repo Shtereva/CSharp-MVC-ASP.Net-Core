@@ -12,6 +12,10 @@
 
         public DbSet<Borrower> Borrowers { get; set; }
 
+        public DbSet<Movie> Movies { get; set; }
+
+        public DbSet<Director> Directors { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -61,6 +65,40 @@
                 {
                     bh.BookId,
                     bh.HistoryId
+                });
+
+            modelBuilder.Entity<MovieHistory>()
+                .HasKey(mh => new
+                {
+                    mh.MovieId,
+                    mh.HistoryId
+                });
+
+            modelBuilder.Entity<Movie>()
+                .HasMany(m => m.Borrowers)
+                .WithOne(bo => bo.Movie)
+                .HasForeignKey(bo => bo.MovieId);
+
+            modelBuilder.Entity<Borrower>()
+                .HasMany(bo => bo.Movies)
+                .WithOne(m => m.Borrower)
+                .HasForeignKey(m => m.BorrowerId);
+
+            modelBuilder.Entity<Movie>()
+                .HasMany(m => m.History)
+                .WithOne(h => h.Movie)
+                .HasForeignKey(h => h.MovieId);
+
+            modelBuilder.Entity<History>()
+                .HasMany(h => h.Movies)
+                .WithOne(m => m.History)
+                .HasForeignKey(m => m.HistoryId);
+
+            modelBuilder.Entity<MovieBorrower>()
+                .HasKey(mb => new
+                {
+                    mb.MovieId,
+                    mb.BorrowerId
                 });
         }
     }

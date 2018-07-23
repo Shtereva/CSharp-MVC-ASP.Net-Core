@@ -16,5 +16,7 @@
         public string Address { get; set; }
 
         public ICollection<BooksBorrower> Books { get; set; } = new List<BooksBorrower>();
+
+        public ICollection<MovieBorrower> Movies { get; set; } = new List<MovieBorrower>();
     }
 }

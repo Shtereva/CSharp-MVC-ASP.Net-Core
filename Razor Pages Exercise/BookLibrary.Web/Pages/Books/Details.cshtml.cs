@@ -4,7 +4,7 @@
     using Data;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
-    using Views;
+    using Models;
 
     public class DetailsModel : PageModel
     {

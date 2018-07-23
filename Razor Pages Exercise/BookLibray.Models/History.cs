@@ -12,5 +12,7 @@
         public DateTime? EndDate { get; set; }
 
         public ICollection<BookHistory> Books { get; set; } = new List<BookHistory>();
+
+        public ICollection<MovieHistory> Movies { get; set; } = new List<MovieHistory>();
     }
 }

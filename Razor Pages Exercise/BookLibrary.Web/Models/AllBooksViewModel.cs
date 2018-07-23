@@ -1,4 +1,4 @@
-﻿namespace BookLibrary.Web.Views
+﻿namespace BookLibrary.Web.Models
 {
     using System.ComponentModel.DataAnnotations;
 
