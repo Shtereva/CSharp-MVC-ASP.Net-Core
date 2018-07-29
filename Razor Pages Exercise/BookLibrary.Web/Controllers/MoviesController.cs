@@ -42,12 +42,17 @@ namespace BookLibrary.Web.Controllers
 
             return this.View(this.AllMovies);
         }
+
+        [Authorize]
         public IActionResult Add()
         {
+            var s = this.HttpContext.Session;
+
             return this.View();
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult Add(AddMovieBindingModel model)
         {
             if (!this.ModelState.IsValid)

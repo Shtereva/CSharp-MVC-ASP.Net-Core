@@ -41,19 +41,17 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-page="/Borrowers/Add">Add Borrower</a>
                 </li>
-                @{
-                    if (Context.Session.GetString(Constants.CurrentUserSessionKey) != null)
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Users" asp-action="Logout">Logout</a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Users" asp-action="Login">Login</a>
-                        </li>
-                    }
+                @if (this.Context.Session.GetString(Constants.CurrentUserSessionKey) != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Users" asp-action="Logout">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Users" asp-action="Login">Login</a>
+                    </li>
                 }
             </ul>
             <form class="form-inline my-2 my-lg-0">

@@ -4,9 +4,11 @@
     using BindingModels;
     using BookLibray.Models;
     using Data;
+    using Filters;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
 
+    [Authorize]
     public class AddModel : PageModel
     {
         private readonly BookLibraryDbContext db;
@@ -16,6 +18,10 @@
         public AddModel(BookLibraryDbContext db)
         {
             this.db = db;
+        }
+
+        public void OnGet()
+        {
         }
 
         public IActionResult OnPost()

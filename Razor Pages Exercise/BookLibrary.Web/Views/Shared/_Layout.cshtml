@@ -41,24 +41,22 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-page="/Borrowers/Add">Add Borrower</a>
                 </li>
-                @{
-                    if (Context.Session.GetString(Constants.CurrentUserSessionKey) != null)
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Users" asp-action="Logout">Logout</a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Users" asp-action="Login">Login</a>
-                        </li>
-                    }
+                @if (Context.Session.GetString(Constants.CurrentUserSessionKey) != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Users" asp-action="Logout">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Users" asp-action="Login">Login</a>
+                    </li>
                 }
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                    <input type="search" class="form-control mr-sm-2 " placeholder="Search" aria-label="Search" name="searchTerm">
-                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" asp-page="/Search">Search</button>
+                <input type="search" class="form-control mr-sm-2 " placeholder="Search" aria-label="Search" name="searchTerm">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" asp-page="/Search">Search</button>
             </form>
         </div>
     </nav>

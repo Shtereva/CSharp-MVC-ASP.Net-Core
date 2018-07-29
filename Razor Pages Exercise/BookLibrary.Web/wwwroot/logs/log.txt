@@ -817,3 +817,1034 @@ BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
 2018-07-28 22:22:04.107 +03:00 [INF] info: Executed GET /Index. in 0 s.
 2018-07-28 22:22:24.521 +03:00 [INF] Executed action /Index in 20467.4078ms
 2018-07-28 22:22:24.522 +03:00 [INF] Request finished in 20468.4579ms 200 text/html; charset=utf-8
+2018-07-29 16:22:42.225 +03:00 [INF] Starting web host
+2018-07-29 16:22:42.487 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:22:42.796 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:22:42.954 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:22:43.077 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:22:43.078 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:22:43.082 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:22:43.511 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:22:43.651 +03:00 [INF] Executed action /Index in 693.3375ms
+2018-07-29 16:22:43.661 +03:00 [INF] Request finished in 866.534ms 200 text/html; charset=utf-8
+2018-07-29 16:22:43.745 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2018-07-29 16:22:43.746 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 16:22:43.747 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css  
+2018-07-29 16:22:43.751 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\js\site.js'
+2018-07-29 16:22:43.751 +03:00 [INF] Request finished in 6.074ms 200 application/javascript
+2018-07-29 16:22:43.761 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\css\site.css'
+2018-07-29 16:22:43.769 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-07-29 16:22:43.779 +03:00 [INF] Request finished in 31.5302ms 200 text/css
+2018-07-29 16:22:43.779 +03:00 [INF] Request finished in 32.6703ms 200 text/css
+2018-07-29 16:22:43.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/jquery/dist/jquery.js  
+2018-07-29 16:22:43.823 +03:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-07-29 16:22:43.824 +03:00 [INF] Request finished in 4.3192ms 304 application/javascript
+2018-07-29 16:22:43.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/js/bootstrap.js  
+2018-07-29 16:22:43.870 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-07-29 16:22:43.870 +03:00 [INF] Request finished in 0.8592ms 304 application/javascript
+2018-07-29 16:22:43.978 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/favicon.ico  
+2018-07-29 16:22:43.979 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\favicon.ico'
+2018-07-29 16:22:43.979 +03:00 [INF] Request finished in 1.3811ms 200 image/x-icon
+2018-07-29 16:22:48.086 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:22:48.095 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:22:48.109 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:22:48.109 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:22:48.113 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:22:48.116 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.49770000000000003ms.
+2018-07-29 16:22:48.116 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:22:48.126 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:22:48.214 +03:00 [INF] Executed ViewResult - view Login executed in 95.5057ms.
+2018-07-29 16:22:48.215 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 119.8079ms
+2018-07-29 16:22:48.216 +03:00 [INF] Request finished in 130.2556ms 200 text/html; charset=utf-8
+2018-07-29 16:22:54.301 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:22:54.315 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:22:54.356 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:22:54.356 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:22:54.359 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:22:54.423 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 63.257200000000005ms.
+2018-07-29 16:22:54.423 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 16:22:54.423 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 16:22:54.424 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 107.9505ms
+2018-07-29 16:22:54.425 +03:00 [INF] Session started; Key:0fb705a1-d2b5-5537-3871-86652d2bdcea, Id:07ed68e3-8eaa-596e-14fa-0c6e8573bef5
+2018-07-29 16:22:54.426 +03:00 [INF] Request finished in 124.5845ms 302 
+2018-07-29 16:22:54.438 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:22:54.439 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:22:54.439 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:22:54.439 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:22:54.439 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:22:54.440 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:22:54.441 +03:00 [INF] Executed action /Index in 2.539ms
+2018-07-29 16:22:54.442 +03:00 [INF] Request finished in 3.2035ms 200 text/html; charset=utf-8
+2018-07-29 16:27:06.721 +03:00 [INF] Starting web host
+2018-07-29 16:27:06.995 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:27:07.309 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:27:07.464 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:27:07.516 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:27:07.516 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:27:07.520 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:27:07.938 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:27:08.119 +03:00 [INF] Executed action /Index in 651.7573ms
+2018-07-29 16:27:08.128 +03:00 [INF] Request finished in 821.3299ms 200 text/html; charset=utf-8
+2018-07-29 16:27:13.283 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:27:13.292 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:27:13.296 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:27:13.296 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:27:13.299 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:27:13.301 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2121ms.
+2018-07-29 16:27:13.302 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:27:13.313 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:27:13.387 +03:00 [INF] Executed ViewResult - view Login executed in 83.9149ms.
+2018-07-29 16:27:13.387 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 95.668ms
+2018-07-29 16:27:13.388 +03:00 [INF] Request finished in 105.1732ms 200 text/html; charset=utf-8
+2018-07-29 16:27:19.694 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:27:19.706 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:27:19.749 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:27:19.750 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:27:19.753 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:27:19.820 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 65.6951ms.
+2018-07-29 16:27:19.820 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 16:27:19.821 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 16:27:19.821 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 114.9324ms
+2018-07-29 16:27:19.823 +03:00 [INF] Session started; Key:ec01899f-8955-5db7-d7ca-7e27c95e7384, Id:7fbea22f-c14e-51a2-1b60-6842017d8f0e
+2018-07-29 16:27:19.825 +03:00 [INF] Request finished in 130.5334ms 302 
+2018-07-29 16:27:19.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:27:19.842 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:27:19.842 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:27:19.842 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:27:19.842 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:27:19.844 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:27:19.845 +03:00 [INF] Executed action /Index in 2.6832000000000003ms
+2018-07-29 16:27:19.845 +03:00 [INF] Request finished in 3.2912ms 200 text/html; charset=utf-8
+2018-07-29 16:27:26.312 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css.map  
+2018-07-29 16:27:26.338 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map'
+2018-07-29 16:27:26.340 +03:00 [INF] Request finished in 27.5365ms 200 text/plain
+2018-07-29 16:39:58.157 +03:00 [INF] Starting web host
+2018-07-29 16:40:00.866 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:40:01.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:40:01.523 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 16:40:01.593 +03:00 [INF] Request finished in 69.6872ms 200 
+2018-07-29 16:40:01.837 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:40:01.969 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:40:01.970 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:40:01.974 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:40:02.605 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:40:02.762 +03:00 [INF] Executed action /Index in 921.2666ms
+2018-07-29 16:40:02.775 +03:00 [INF] Request finished in 1253.5484ms 200 text/html; charset=utf-8
+2018-07-29 16:41:41.426 +03:00 [INF] Starting web host
+2018-07-29 16:41:43.644 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:41:44.253 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 16:41:44.253 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:41:44.307 +03:00 [INF] Request finished in 52.8438ms 200 
+2018-07-29 16:41:44.528 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:41:44.641 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:41:44.641 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:41:44.647 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:41:45.381 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:41:45.541 +03:00 [INF] Executed action /Index in 1009.4881ms
+2018-07-29 16:41:45.563 +03:00 [INF] Request finished in 1311.7311ms 200 text/html; charset=utf-8
+2018-07-29 16:41:57.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 16:41:57.837 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 16:41:57.857 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 16:41:57.857 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:41:57.857 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:41:57.857 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 16:41:57.929 +03:00 [INF] Executed action /Books/Add in 91.49260000000001ms
+2018-07-29 16:41:57.929 +03:00 [INF] Request finished in 112.408ms 200 text/html; charset=utf-8
+2018-07-29 16:42:08.276 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:42:08.293 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:42:08.298 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:42:08.298 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:42:08.298 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 16:42:08.299 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:42:08.299 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 5.4771ms
+2018-07-29 16:42:08.299 +03:00 [INF] Request finished in 23.516ms 302 
+2018-07-29 16:42:08.315 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:42:08.316 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:42:08.317 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:42:08.317 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:42:08.370 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:42:08.374 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.81380000000000008ms.
+2018-07-29 16:42:08.374 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:42:08.389 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:42:08.444 +03:00 [INF] Executed ViewResult - view Login executed in 65.76700000000001ms.
+2018-07-29 16:42:08.444 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 127.6435ms
+2018-07-29 16:42:08.444 +03:00 [INF] Request finished in 129.7069ms 200 text/html; charset=utf-8
+2018-07-29 16:45:59.975 +03:00 [INF] Starting web host
+2018-07-29 16:46:01.917 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:46:02.488 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 16:46:02.488 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:46:02.535 +03:00 [INF] Request finished in 48.1769ms 200 
+2018-07-29 16:46:02.728 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:46:02.822 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:46:02.822 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:46:02.827 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:46:03.485 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:46:03.637 +03:00 [INF] Executed action /Index in 905.35790000000009ms
+2018-07-29 16:46:03.646 +03:00 [INF] Request finished in 1160.479ms 200 text/html; charset=utf-8
+2018-07-29 16:46:09.218 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:46:09.245 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:46:09.249 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:46:09.250 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:46:33.986 +03:00 [INF] info: Executed GET Movies.Add in 24 s.
+2018-07-29 16:46:35.050 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:46:35.050 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 25805.4622ms
+2018-07-29 16:46:35.051 +03:00 [INF] Request finished in 25832.8704ms 302 
+2018-07-29 16:46:35.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:46:35.086 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:46:35.087 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:46:35.087 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:46:35.133 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:46:35.136 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3851ms.
+2018-07-29 16:46:35.136 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:46:35.165 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:46:35.257 +03:00 [INF] Executed ViewResult - view Login executed in 118.79650000000001ms.
+2018-07-29 16:46:35.258 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 171.62730000000002ms
+2018-07-29 16:46:35.258 +03:00 [INF] Request finished in 174.4346ms 200 text/html; charset=utf-8
+2018-07-29 16:46:58.289 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:47:06.700 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:47:17.452 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:47:17.452 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:47:18.682 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:48:30.310 +03:00 [INF] Starting web host
+2018-07-29 16:48:32.179 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:48:32.865 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 16:48:32.865 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:48:32.906 +03:00 [INF] Request finished in 41.6374ms 200 
+2018-07-29 16:48:33.105 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:48:33.197 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:48:33.197 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:48:33.201 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:48:33.794 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:48:33.928 +03:00 [INF] Executed action /Index in 819.957ms
+2018-07-29 16:48:33.941 +03:00 [INF] Request finished in 1078.6223ms 200 text/html; charset=utf-8
+2018-07-29 16:48:36.781 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:48:36.806 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:48:36.812 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:48:36.812 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:48:36.813 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 16:48:36.814 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:48:36.814 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 8.0375ms
+2018-07-29 16:48:36.815 +03:00 [INF] Request finished in 34.2553ms 302 
+2018-07-29 16:48:36.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:48:36.845 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:48:36.846 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:48:36.846 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:48:36.896 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:48:36.901 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5692ms.
+2018-07-29 16:48:36.901 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:48:36.924 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:48:37.037 +03:00 [INF] Executed ViewResult - view Login executed in 134.2572ms.
+2018-07-29 16:48:37.038 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 191.98080000000002ms
+2018-07-29 16:48:37.038 +03:00 [INF] Request finished in 194.401ms 200 text/html; charset=utf-8
+2018-07-29 16:48:43.375 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:48:43.392 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:48:43.434 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:48:43.434 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:48:43.460 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:49:45.069 +03:00 [INF] Starting web host
+2018-07-29 16:49:47.199 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:49:47.875 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:49:47.875 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 16:49:47.922 +03:00 [INF] Request finished in 47.6289ms 200 
+2018-07-29 16:49:48.131 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:49:48.234 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:49:48.234 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:49:48.241 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:49:48.838 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:49:48.972 +03:00 [INF] Executed action /Index in 835.04640000000006ms
+2018-07-29 16:49:48.982 +03:00 [INF] Request finished in 1109.5694ms 200 text/html; charset=utf-8
+2018-07-29 16:49:51.043 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:49:51.061 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:49:51.078 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:49:51.078 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:49:51.079 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 16:49:51.080 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:49:51.081 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 19.044700000000002ms
+2018-07-29 16:49:51.081 +03:00 [INF] Request finished in 37.9717ms 302 
+2018-07-29 16:49:51.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:49:51.103 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:49:51.103 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:49:51.103 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:49:51.151 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:49:51.154 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3678ms.
+2018-07-29 16:49:51.154 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:49:51.167 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:49:51.274 +03:00 [INF] Executed ViewResult - view Login executed in 117.6804ms.
+2018-07-29 16:49:51.274 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 170.93120000000002ms
+2018-07-29 16:49:51.274 +03:00 [INF] Request finished in 172.9337ms 200 text/html; charset=utf-8
+2018-07-29 16:49:56.135 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:49:56.148 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:49:56.189 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:49:56.189 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:49:56.218 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:50:39.751 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 43520.9603ms.
+2018-07-29 16:50:39.771 +03:00 [INF] info: Executed POST Users.Login in 43 s.
+2018-07-29 16:50:39.788 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 16:50:39.788 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 43640.664300000004ms
+2018-07-29 16:50:39.789 +03:00 [INF] Session started; Key:1c8316f9-25b4-1eba-1c44-c306baf9630d, Id:15341a43-a13c-276e-3f53-ab990df86b90
+2018-07-29 16:50:39.791 +03:00 [INF] Request finished in 43655.1943ms 302 
+2018-07-29 16:50:39.807 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:50:39.807 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:50:39.808 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:50:39.808 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:50:39.808 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:50:39.832 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:50:39.834 +03:00 [INF] Executed action /Index in 26.2356ms
+2018-07-29 16:50:39.834 +03:00 [INF] Request finished in 26.9135ms 200 text/html; charset=utf-8
+2018-07-29 16:50:48.622 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:50:48.622 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:50:48.623 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:50:48.623 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:50:48.623 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 16:50:48.623 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:50:48.623 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.5775ms
+2018-07-29 16:50:48.623 +03:00 [INF] Request finished in 1.37ms 302 
+2018-07-29 16:50:48.639 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:50:48.639 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:50:48.639 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:50:48.639 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:50:48.658 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:50:48.659 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.057600000000000005ms.
+2018-07-29 16:50:48.659 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:50:48.659 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:50:48.663 +03:00 [INF] Executed ViewResult - view Login executed in 4.6593ms.
+2018-07-29 16:50:48.664 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 24.538ms
+2018-07-29 16:50:48.664 +03:00 [INF] Request finished in 25.097ms 200 text/html; charset=utf-8
+2018-07-29 16:51:17.083 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css.map  
+2018-07-29 16:51:17.087 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified
+2018-07-29 16:51:17.089 +03:00 [INF] Request finished in 5.7489ms 304 text/plain
+2018-07-29 16:51:28.646 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:51:28.647 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:51:28.648 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:51:28.648 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:51:28.669 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:51:37.011 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 8336.0155ms.
+2018-07-29 16:51:37.019 +03:00 [INF] info: Executed POST Users.Login in 8 s.
+2018-07-29 16:51:37.054 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 16:51:37.067 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 8420.1738ms
+2018-07-29 16:51:37.067 +03:00 [INF] Session started; Key:6d2b06fe-666a-5e98-9fbc-66de3d829c53, Id:fdccba7c-7f84-924e-d361-756a9d6d10eb
+2018-07-29 16:51:37.068 +03:00 [INF] Request finished in 8421.2678ms 302 
+2018-07-29 16:51:37.102 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:51:37.102 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:51:37.102 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:51:37.102 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:51:37.102 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:51:37.129 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:51:37.131 +03:00 [INF] Executed action /Index in 28.7865ms
+2018-07-29 16:51:37.131 +03:00 [INF] Request finished in 29.5553ms 200 text/html; charset=utf-8
+2018-07-29 16:51:37.794 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css.map  
+2018-07-29 16:51:37.795 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified
+2018-07-29 16:51:37.795 +03:00 [INF] Request finished in 1.3151ms 304 text/plain
+2018-07-29 16:58:39.838 +03:00 [INF] Starting web host
+2018-07-29 16:58:40.113 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 16:58:40.440 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:58:40.610 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:58:40.675 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:58:40.675 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:40.679 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:58:41.075 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:58:41.188 +03:00 [INF] Executed action /Index in 574.9178ms
+2018-07-29 16:58:41.198 +03:00 [INF] Request finished in 759.0421ms 200 text/html; charset=utf-8
+2018-07-29 16:58:46.477 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:58:46.486 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:58:46.491 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:58:46.491 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:46.494 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:58:46.496 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2326ms.
+2018-07-29 16:58:46.497 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:58:46.508 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:58:46.586 +03:00 [INF] Executed ViewResult - view Login executed in 87.3994ms.
+2018-07-29 16:58:46.587 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 100.02000000000001ms
+2018-07-29 16:58:46.587 +03:00 [INF] Request finished in 110.0826ms 200 text/html; charset=utf-8
+2018-07-29 16:58:51.168 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 241
+2018-07-29 16:58:51.177 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:58:51.213 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:58:51.213 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:51.220 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:58:51.251 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 30.3758ms.
+2018-07-29 16:58:51.251 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 16:58:51.251 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:58:51.254 +03:00 [INF] Executed ViewResult - view Login executed in 2.5291ms.
+2018-07-29 16:58:51.254 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 76.20450000000001ms
+2018-07-29 16:58:51.254 +03:00 [INF] Request finished in 86.4153ms 200 text/html; charset=utf-8
+2018-07-29 16:58:51.320 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 16:58:51.329 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\css\site.css'
+2018-07-29 16:58:51.329 +03:00 [INF] Request finished in 10.7101ms 0 text/css
+2018-07-29 16:58:57.336 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 16:58:57.336 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:58:57.337 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 16:58:57.337 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:57.337 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 16:58:57.364 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 26.6417ms.
+2018-07-29 16:58:57.364 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 16:58:57.364 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 16:58:57.364 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 27.948600000000003ms
+2018-07-29 16:58:57.365 +03:00 [INF] Session started; Key:768e5441-d750-96ad-5377-d60ff8a1dc31, Id:f021b8c5-ea21-3383-8592-b42a4df8cb4f
+2018-07-29 16:58:57.367 +03:00 [INF] Request finished in 30.7713ms 302 
+2018-07-29 16:58:57.384 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 16:58:57.384 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 16:58:57.385 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 16:58:57.385 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:57.385 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:58:57.386 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 16:58:57.387 +03:00 [INF] Executed action /Index in 2.7267ms
+2018-07-29 16:58:57.388 +03:00 [INF] Request finished in 3.4338ms 200 text/html; charset=utf-8
+2018-07-29 16:58:57.455 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css  
+2018-07-29 16:58:57.471 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-07-29 16:58:57.479 +03:00 [INF] Request finished in 23.8996ms 200 text/css
+2018-07-29 16:58:58.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 16:58:58.825 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 16:58:58.827 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 16:58:58.827 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:58:58.827 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:58:58.828 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 16:58:58.857 +03:00 [INF] Executed action /Books/Add in 31.3979ms
+2018-07-29 16:58:58.857 +03:00 [INF] Request finished in 51.9892ms 200 text/html; charset=utf-8
+2018-07-29 16:59:00.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 16:59:00.606 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 16:59:00.606 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 16:59:00.606 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:59:00.606 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 16:59:00.607 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 16:59:00.607 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.9311ms
+2018-07-29 16:59:00.607 +03:00 [INF] Request finished in 2.3462ms 302 
+2018-07-29 16:59:00.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 16:59:00.623 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 16:59:00.624 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 16:59:00.624 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:59:00.624 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 16:59:00.624 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0067ms.
+2018-07-29 16:59:00.624 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 16:59:00.624 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 16:59:00.625 +03:00 [INF] Executed ViewResult - view Login executed in 1.1168ms.
+2018-07-29 16:59:00.625 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.6019ms
+2018-07-29 16:59:00.625 +03:00 [INF] Request finished in 2.1977ms 200 text/html; charset=utf-8
+2018-07-29 16:59:02.181 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 16:59:02.182 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 16:59:02.182 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 16:59:02.182 +03:00 [INF] info: Model state: Valid
+2018-07-29 16:59:02.182 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 16:59:02.182 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 16:59:02.185 +03:00 [INF] Executed action /Books/Add in 3.1435ms
+2018-07-29 16:59:02.185 +03:00 [INF] Request finished in 3.7522ms 200 text/html; charset=utf-8
+2018-07-29 17:00:24.655 +03:00 [INF] Starting web host
+2018-07-29 17:00:26.761 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:00:27.408 +03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:55314/  0
+2018-07-29 17:00:27.408 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:00:27.456 +03:00 [INF] Request finished in 48.3555ms 200 
+2018-07-29 17:00:27.678 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:00:27.784 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:00:27.785 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:00:27.789 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:00:28.424 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:00:28.569 +03:00 [INF] Executed action /Index in 885.8707ms
+2018-07-29 17:00:28.582 +03:00 [INF] Request finished in 1177.0767ms 200 text/html; charset=utf-8
+2018-07-29 17:00:28.674 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css  
+2018-07-29 17:00:28.674 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 17:00:28.680 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\css\site.css'
+2018-07-29 17:00:28.680 +03:00 [INF] Request finished in 6.6559ms 200 text/css
+2018-07-29 17:00:28.717 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-07-29 17:00:28.720 +03:00 [INF] Request finished in 46.1123ms 200 text/css
+2018-07-29 17:00:31.124 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:00:31.148 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:00:31.155 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:00:31.155 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:00:31.155 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:00:31.155 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:00:31.210 +03:00 [INF] Executed action /Books/Add in 61.4213ms
+2018-07-29 17:00:31.210 +03:00 [INF] Request finished in 85.7239ms 200 text/html; charset=utf-8
+2018-07-29 17:00:44.169 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Books/Add application/x-www-form-urlencoded 325
+2018-07-29 17:00:44.169 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:00:44.216 +03:00 [INF] info: Executing POST /Books/Add.
+2018-07-29 17:00:44.216 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:00:44.216 +03:00 [INF] Executing handler method OnPost with arguments (null) - ModelState is "Valid"
+2018-07-29 17:01:36.062 +03:00 [INF] Starting web host
+2018-07-29 17:01:36.315 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:01:36.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:01:36.822 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:01:36.888 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:01:36.889 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:36.893 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:01:37.268 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:01:37.431 +03:00 [INF] Executed action /Index in 605.89060000000006ms
+2018-07-29 17:01:37.445 +03:00 [INF] Request finished in 788.8187ms 200 text/html; charset=utf-8
+2018-07-29 17:01:43.566 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:01:43.590 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:01:43.606 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:01:43.606 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:43.607 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:01:43.609 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:01:43.609 +03:00 [INF] Executed action /Books/Add in 18.5165ms
+2018-07-29 17:01:43.611 +03:00 [INF] Request finished in 44.4321ms 302 
+2018-07-29 17:01:43.631 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:01:43.638 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:01:43.645 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:01:43.645 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:43.648 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:01:43.650 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1955ms.
+2018-07-29 17:01:43.651 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:01:43.661 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:01:43.738 +03:00 [INF] Executed ViewResult - view Login executed in 85.8776ms.
+2018-07-29 17:01:43.738 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 99.9568ms
+2018-07-29 17:01:43.739 +03:00 [INF] Request finished in 108.1666ms 200 text/html; charset=utf-8
+2018-07-29 17:01:51.924 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 216
+2018-07-29 17:01:51.926 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:01:51.958 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 17:01:51.958 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:51.962 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 17:01:52.024 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 61.528800000000004ms.
+2018-07-29 17:01:52.024 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 17:01:52.024 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 17:01:52.025 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 98.139900000000011ms
+2018-07-29 17:01:52.025 +03:00 [INF] Session started; Key:a4715799-1505-0803-a198-77bf86297be1, Id:64e0a4fd-8899-6edf-0874-6fa1e45c2e99
+2018-07-29 17:01:52.027 +03:00 [INF] Request finished in 103.1035ms 302 
+2018-07-29 17:01:52.041 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:01:52.042 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:01:52.042 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:01:52.042 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:52.042 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:01:52.045 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:01:52.047 +03:00 [INF] Executed action /Index in 4.8462000000000005ms
+2018-07-29 17:01:52.047 +03:00 [INF] Request finished in 5.9065ms 200 text/html; charset=utf-8
+2018-07-29 17:01:54.347 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:01:54.347 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:01:54.347 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:01:54.347 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:54.347 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:01:54.347 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:01:54.382 +03:00 [INF] Executed action /Books/Add in 34.7274ms
+2018-07-29 17:01:54.382 +03:00 [INF] Request finished in 35.2675ms 200 text/html; charset=utf-8
+2018-07-29 17:01:56.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:01:56.274 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:01:56.274 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:01:56.274 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:01:56.274 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:01:56.274 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1359ms.
+2018-07-29 17:01:56.274 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:01:56.329 +03:00 [INF] Executing ViewResult, running view Add.
+2018-07-29 17:01:56.367 +03:00 [INF] Executed ViewResult - view Add executed in 92.5929ms.
+2018-07-29 17:01:56.368 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 94.2829ms
+2018-07-29 17:01:56.369 +03:00 [INF] Request finished in 96.4151ms 200 text/html; charset=utf-8
+2018-07-29 17:02:02.995 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:02:03.004 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:02:03.005 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:02:03.005 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:03.005 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:02:03.005 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:02:03.026 +03:00 [INF] Executed action /Borrowers/Add in 21.633100000000002ms
+2018-07-29 17:02:03.026 +03:00 [INF] Request finished in 30.6212ms 200 text/html; charset=utf-8
+2018-07-29 17:02:12.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Logout  
+2018-07-29 17:02:12.886 +03:00 [INF] Route matched with {action = "Logout", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web)
+2018-07-29 17:02:12.886 +03:00 [INF] info: Executing GET Users.Logout
+2018-07-29 17:02:12.886 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:12.886 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:02:12.886 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 0.1983ms.
+2018-07-29 17:02:12.886 +03:00 [INF] info: Executed GET Users.Logout in 0 s.
+2018-07-29 17:02:12.886 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 17:02:12.886 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web) in 0.6076ms
+2018-07-29 17:02:12.886 +03:00 [INF] Request finished in 2.0958ms 302 
+2018-07-29 17:02:12.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:02:12.901 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:02:12.902 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:02:12.902 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:12.902 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:02:12.903 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:02:12.903 +03:00 [INF] Executed action /Index in 1.9227ms
+2018-07-29 17:02:12.904 +03:00 [INF] Request finished in 2.5967ms 200 text/html; charset=utf-8
+2018-07-29 17:02:15.841 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:02:15.841 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:02:15.841 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:02:15.841 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:15.841 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:02:15.841 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:02:15.844 +03:00 [INF] Executed action /Borrowers/Add in 2.6619ms
+2018-07-29 17:02:15.844 +03:00 [INF] Request finished in 3.1237ms 200 text/html; charset=utf-8
+2018-07-29 17:02:18.152 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:02:18.152 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:02:18.153 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:02:18.153 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:18.153 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:02:18.153 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.011000000000000001ms.
+2018-07-29 17:02:18.153 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:02:18.153 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:02:18.154 +03:00 [INF] Executed ViewResult - view Login executed in 1.4546000000000001ms.
+2018-07-29 17:02:18.154 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.8208000000000002ms
+2018-07-29 17:02:18.154 +03:00 [INF] Request finished in 2.2957ms 200 text/html; charset=utf-8
+2018-07-29 17:02:55.508 +03:00 [INF] Starting web host
+2018-07-29 17:02:55.774 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:02:56.125 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:02:56.269 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:02:56.320 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:02:56.320 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:02:56.323 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:02:56.704 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:02:56.779 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:02:56.828 +03:00 [INF] Executed action /Index in 555.3212ms
+2018-07-29 17:02:56.845 +03:00 [INF] Request finished in 720.17ms 200 text/html; charset=utf-8
+2018-07-29 17:03:00.360 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:03:00.381 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:03:00.386 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:03:00.386 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:03:00.387 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:03:00.387 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:03:00.387 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:03:00.387 +03:00 [INF] Executed action /Borrowers/Add in 6.1167000000000007ms
+2018-07-29 17:03:00.388 +03:00 [INF] Request finished in 28.0825ms 302 
+2018-07-29 17:03:00.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:03:00.408 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:03:00.412 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:03:00.412 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:03:00.416 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:03:00.418 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.21250000000000002ms.
+2018-07-29 17:03:00.419 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:03:00.426 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:03:00.478 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:03:00.498 +03:00 [INF] Executed ViewResult - view Login executed in 77.91040000000001ms.
+2018-07-29 17:03:00.498 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 89.921900000000008ms
+2018-07-29 17:03:00.499 +03:00 [INF] Request finished in 97.9562ms 200 text/html; charset=utf-8
+2018-07-29 17:04:03.598 +03:00 [INF] Starting web host
+2018-07-29 17:04:03.867 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:04:04.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:04.340 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:04.392 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:04.392 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:04.397 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:04.402 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3662ms.
+2018-07-29 17:04:04.403 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:04.420 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:04.512 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:04.560 +03:00 [INF] Executed ViewResult - view Login executed in 147.1402ms.
+2018-07-29 17:04:04.560 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 220.2451ms
+2018-07-29 17:04:04.571 +03:00 [INF] Request finished in 359.0235ms 200 text/html; charset=utf-8
+2018-07-29 17:04:04.635 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css  
+2018-07-29 17:04:04.637 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/jquery/dist/jquery.js  
+2018-07-29 17:04:04.637 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 17:04:04.638 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/js/bootstrap.js  
+2018-07-29 17:04:04.639 +03:00 [INF] The file /css/site.css was not modified
+2018-07-29 17:04:04.639 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-07-29 17:04:04.639 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-07-29 17:04:04.639 +03:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-07-29 17:04:04.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/jquery-validation/dist/jquery.validate.js  
+2018-07-29 17:04:04.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2018-07-29 17:04:04.641 +03:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+2018-07-29 17:04:04.641 +03:00 [INF] The file /js/site.js was not modified
+2018-07-29 17:04:04.642 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 5.2294ms 304 text/css
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 5.3321ms 304 application/javascript
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 1.3151ms 304 application/javascript
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 4.3113ms 304 application/javascript
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 0.8659ms 304 application/javascript
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 6.9151ms 304 text/css
+2018-07-29 17:04:04.642 +03:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js was not modified
+2018-07-29 17:04:04.642 +03:00 [INF] Request finished in 0.6155ms 304 application/javascript
+2018-07-29 17:04:06.978 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:04:07.002 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:04:07.014 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:04:07.014 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:07.014 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:07.015 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:04:07.015 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:07.015 +03:00 [INF] Executed action /Borrowers/Add in 13.406ms
+2018-07-29 17:04:07.016 +03:00 [INF] Request finished in 38.0005ms 302 
+2018-07-29 17:04:07.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:07.034 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:07.035 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:07.035 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:07.035 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:07.035 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0177ms.
+2018-07-29 17:04:07.035 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:07.035 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:07.037 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:07.038 +03:00 [INF] Executed ViewResult - view Login executed in 2.5339ms.
+2018-07-29 17:04:07.038 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 3.1517ms
+2018-07-29 17:04:07.038 +03:00 [INF] Request finished in 3.8368ms 200 text/html; charset=utf-8
+2018-07-29 17:04:08.501 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:04:08.503 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:04:08.503 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:04:08.503 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:08.503 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:08.503 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:04:08.503 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:08.504 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.653ms
+2018-07-29 17:04:08.504 +03:00 [INF] Request finished in 2.255ms 302 
+2018-07-29 17:04:08.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:08.520 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:08.520 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:08.520 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:08.520 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:08.520 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.022500000000000003ms.
+2018-07-29 17:04:08.520 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:08.520 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:08.521 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:08.522 +03:00 [INF] Executed ViewResult - view Login executed in 1.3815000000000002ms.
+2018-07-29 17:04:08.522 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.7856ms
+2018-07-29 17:04:08.522 +03:00 [INF] Request finished in 2.2775ms 200 text/html; charset=utf-8
+2018-07-29 17:04:10.294 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:04:10.302 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:04:10.302 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:04:10.302 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:10.302 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:10.302 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:04:10.302 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:10.302 +03:00 [INF] Executed action /Books/Add in 0.56800000000000006ms
+2018-07-29 17:04:10.303 +03:00 [INF] Request finished in 8.909ms 302 
+2018-07-29 17:04:10.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:10.314 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:10.314 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:10.314 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:10.314 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:10.315 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0067ms.
+2018-07-29 17:04:10.315 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:10.315 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:10.316 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:10.316 +03:00 [INF] Executed ViewResult - view Login executed in 1.4605000000000001ms.
+2018-07-29 17:04:10.316 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.9342000000000001ms
+2018-07-29 17:04:10.316 +03:00 [INF] Request finished in 2.8669ms 200 text/html; charset=utf-8
+2018-07-29 17:04:12.760 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/All  
+2018-07-29 17:04:12.762 +03:00 [INF] Route matched with {action = "All", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web)
+2018-07-29 17:04:12.762 +03:00 [INF] info: Executing GET Movies.All
+2018-07-29 17:04:12.762 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:12.762 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:13.116 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 353.702ms.
+2018-07-29 17:04:13.116 +03:00 [INF] info: Executed GET Movies.All in 0 s.
+2018-07-29 17:04:13.118 +03:00 [INF] Executing ViewResult, running view All.
+2018-07-29 17:04:13.125 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:13.126 +03:00 [INF] Executed ViewResult - view All executed in 9.8176ms.
+2018-07-29 17:04:13.126 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web) in 363.9191ms
+2018-07-29 17:04:13.126 +03:00 [INF] Request finished in 365.6589ms 200 text/html; charset=utf-8
+2018-07-29 17:04:14.950 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Details/1  
+2018-07-29 17:04:14.952 +03:00 [INF] Route matched with {action = "Details", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Details (BookLibrary.Web)
+2018-07-29 17:04:14.962 +03:00 [INF] info: Executing GET Movies.Details
+2018-07-29 17:04:14.962 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:14.972 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.Details (BookLibrary.Web) with arguments (["1"]) - Validation state: "Valid"
+2018-07-29 17:04:15.001 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.Details (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 28.739900000000002ms.
+2018-07-29 17:04:15.002 +03:00 [INF] info: Executed GET Movies.Details in 0 s.
+2018-07-29 17:04:15.005 +03:00 [INF] Executing ViewResult, running view Details.
+2018-07-29 17:04:15.014 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:15.014 +03:00 [INF] Executed ViewResult - view Details executed in 12.7257ms.
+2018-07-29 17:04:15.014 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Details (BookLibrary.Web) in 62.3312ms
+2018-07-29 17:04:15.015 +03:00 [INF] Request finished in 64.6166ms 200 text/html; charset=utf-8
+2018-07-29 17:04:17.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Status/1  
+2018-07-29 17:04:17.977 +03:00 [INF] Route matched with {action = "Status", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Status (BookLibrary.Web)
+2018-07-29 17:04:17.977 +03:00 [INF] info: Executing GET Movies.Status
+2018-07-29 17:04:17.977 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:17.978 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.Status (BookLibrary.Web) with arguments (["1"]) - Validation state: "Valid"
+2018-07-29 17:04:18.082 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.Status (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 104.1397ms.
+2018-07-29 17:04:18.082 +03:00 [INF] info: Executed GET Movies.Status in 0 s.
+2018-07-29 17:04:18.084 +03:00 [INF] Executing ViewResult, running view Status.
+2018-07-29 17:04:18.089 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:18.089 +03:00 [INF] Executed ViewResult - view Status executed in 7.2726000000000006ms.
+2018-07-29 17:04:18.089 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Status (BookLibrary.Web) in 112.086ms
+2018-07-29 17:04:18.089 +03:00 [INF] Request finished in 113.799ms 200 text/html; charset=utf-8
+2018-07-29 17:04:20.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Borrow/1  
+2018-07-29 17:04:20.911 +03:00 [INF] Route matched with {action = "Borrow", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Borrow (BookLibrary.Web)
+2018-07-29 17:04:20.911 +03:00 [INF] info: Executing GET Movies.Borrow
+2018-07-29 17:04:20.911 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:20.911 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.Borrow (BookLibrary.Web) with arguments (["1"]) - Validation state: "Valid"
+2018-07-29 17:04:21.024 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.Borrow (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 112.3131ms.
+2018-07-29 17:04:21.024 +03:00 [INF] info: Executed GET Movies.Borrow in 0 s.
+2018-07-29 17:04:21.026 +03:00 [INF] Executing ViewResult, running view Borrow.
+2018-07-29 17:04:21.107 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:21.108 +03:00 [INF] Executed ViewResult - view Borrow executed in 83.82650000000001ms.
+2018-07-29 17:04:21.108 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Borrow (BookLibrary.Web) in 196.991ms
+2018-07-29 17:04:21.108 +03:00 [INF] Request finished in 198.5886ms 200 text/html; charset=utf-8
+2018-07-29 17:04:22.947 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:04:22.953 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:04:22.953 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:04:22.953 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:22.954 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:22.975 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:04:23.009 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:23.021 +03:00 [INF] Executed action /Index in 67.5701ms
+2018-07-29 17:04:23.021 +03:00 [INF] Request finished in 74.2909ms 200 text/html; charset=utf-8
+2018-07-29 17:04:25.446 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:04:25.447 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:04:25.447 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:04:25.447 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:25.447 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:25.447 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:04:25.447 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:25.447 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.248ms
+2018-07-29 17:04:25.447 +03:00 [INF] Request finished in 0.6459ms 302 
+2018-07-29 17:04:25.460 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:25.461 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:25.461 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:25.461 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:25.461 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:25.461 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0055000000000000005ms.
+2018-07-29 17:04:25.461 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:25.461 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:25.462 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:25.462 +03:00 [INF] Executed ViewResult - view Login executed in 1.1666ms.
+2018-07-29 17:04:25.462 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.5071ms
+2018-07-29 17:04:25.462 +03:00 [INF] Request finished in 1.9034ms 200 text/html; charset=utf-8
+2018-07-29 17:04:30.687 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44354/Users/Login application/x-www-form-urlencoded 212
+2018-07-29 17:04:30.689 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:30.711 +03:00 [INF] info: Executing POST Users.Login
+2018-07-29 17:04:30.712 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:30.712 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) with arguments (["BookLibrary.Web.BindingModels.LoginBindingModel"]) - Validation state: "Valid"
+2018-07-29 17:04:30.732 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:04:30.732 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 20.6478ms.
+2018-07-29 17:04:30.732 +03:00 [INF] info: Executed POST Users.Login in 0 s.
+2018-07-29 17:04:30.733 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 17:04:30.734 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 44.824400000000004ms
+2018-07-29 17:04:30.734 +03:00 [INF] Session started; Key:a4715799-1505-0803-a198-77bf86297be1, Id:9a20c4f4-ecd4-8382-88ea-ccb8e2eba615
+2018-07-29 17:04:30.736 +03:00 [INF] Request finished in 48.9157ms 302 
+2018-07-29 17:04:30.753 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:04:30.754 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:04:30.754 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:04:30.754 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:30.754 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:30.755 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:04:30.757 +03:00 [INF] Executed action /Index in 3.3473ms
+2018-07-29 17:04:30.757 +03:00 [INF] Request finished in 3.9312ms 200 text/html; charset=utf-8
+2018-07-29 17:04:36.120 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:04:36.121 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:04:36.121 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:04:36.121 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:36.121 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:36.121 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:04:36.147 +03:00 [INF] Executed action /Books/Add in 25.7817ms
+2018-07-29 17:04:36.147 +03:00 [INF] Request finished in 26.3407ms 200 text/html; charset=utf-8
+2018-07-29 17:04:38.609 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:04:38.609 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:04:38.610 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:04:38.610 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:38.610 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:38.610 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.22710000000000002ms.
+2018-07-29 17:04:38.610 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:04:38.612 +03:00 [INF] Executing ViewResult, running view Add.
+2018-07-29 17:04:38.658 +03:00 [INF] Executed ViewResult - view Add executed in 47.755ms.
+2018-07-29 17:04:38.658 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 48.487ms
+2018-07-29 17:04:38.658 +03:00 [INF] Request finished in 48.9927ms 200 text/html; charset=utf-8
+2018-07-29 17:04:40.518 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:04:40.518 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:04:40.518 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:04:40.518 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:40.518 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:40.518 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:04:40.533 +03:00 [INF] Executed action /Borrowers/Add in 15.4441ms
+2018-07-29 17:04:40.534 +03:00 [INF] Request finished in 16.1275ms 200 text/html; charset=utf-8
+2018-07-29 17:04:45.933 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Logout  
+2018-07-29 17:04:45.934 +03:00 [INF] Route matched with {action = "Logout", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web)
+2018-07-29 17:04:45.934 +03:00 [INF] info: Executing GET Users.Logout
+2018-07-29 17:04:45.935 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:45.935 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:45.935 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult in 0.18760000000000002ms.
+2018-07-29 17:04:45.935 +03:00 [INF] info: Executed GET Users.Logout in 0 s.
+2018-07-29 17:04:45.935 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2018-07-29 17:04:45.935 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Logout (BookLibrary.Web) in 0.5471ms
+2018-07-29 17:04:45.935 +03:00 [INF] Request finished in 2.1459ms 302 
+2018-07-29 17:04:45.948 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:04:45.948 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:04:45.948 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:04:45.948 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:45.948 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:45.949 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:04:45.950 +03:00 [INF] Executed action /Index in 1.8038ms
+2018-07-29 17:04:45.950 +03:00 [INF] Request finished in 2.2921ms 200 text/html; charset=utf-8
+2018-07-29 17:04:47.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:04:47.655 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:04:47.655 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:04:47.655 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:47.655 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:04:47.655 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:47.655 +03:00 [INF] Executed action /Borrowers/Add in 0.37920000000000004ms
+2018-07-29 17:04:47.655 +03:00 [INF] Request finished in 0.8553ms 302 
+2018-07-29 17:04:47.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:47.672 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:47.672 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:47.672 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:47.672 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:47.672 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0051ms.
+2018-07-29 17:04:47.672 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:47.672 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:47.673 +03:00 [INF] Executed ViewResult - view Login executed in 1.1073ms.
+2018-07-29 17:04:47.674 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.4056ms
+2018-07-29 17:04:47.674 +03:00 [INF] Request finished in 1.8868ms 200 text/html; charset=utf-8
+2018-07-29 17:04:49.032 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:04:49.032 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:04:49.032 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:04:49.032 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:49.032 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:04:49.032 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:49.032 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.2129ms
+2018-07-29 17:04:49.032 +03:00 [INF] Request finished in 0.6095ms 302 
+2018-07-29 17:04:49.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:49.053 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:49.053 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:49.053 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:49.053 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:49.053 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0059ms.
+2018-07-29 17:04:49.053 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:49.053 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:49.055 +03:00 [INF] Executed ViewResult - view Login executed in 1.1516ms.
+2018-07-29 17:04:49.055 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.5932000000000002ms
+2018-07-29 17:04:49.055 +03:00 [INF] Request finished in 2.2558ms 200 text/html; charset=utf-8
+2018-07-29 17:04:50.550 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:04:50.551 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:04:50.551 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:04:50.551 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:50.551 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:04:50.551 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:04:50.551 +03:00 [INF] Executed action /Books/Add in 0.222ms
+2018-07-29 17:04:50.551 +03:00 [INF] Request finished in 0.8165ms 302 
+2018-07-29 17:04:50.567 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:04:50.567 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:04:50.567 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:04:50.567 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:50.567 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:04:50.567 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0051ms.
+2018-07-29 17:04:50.567 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:04:50.567 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:04:50.568 +03:00 [INF] Executed ViewResult - view Login executed in 1.05ms.
+2018-07-29 17:04:50.568 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.3183ms
+2018-07-29 17:04:50.569 +03:00 [INF] Request finished in 1.7983ms 200 text/html; charset=utf-8
+2018-07-29 17:04:51.950 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:04:51.950 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:04:51.950 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:04:51.950 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:04:51.950 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:04:51.951 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:04:51.951 +03:00 [INF] Executed action /Index in 1.5209000000000001ms
+2018-07-29 17:04:51.952 +03:00 [INF] Request finished in 1.9358ms 200 text/html; charset=utf-8
+2018-07-29 17:30:30.601 +03:00 [INF] Starting web host
+2018-07-29 17:30:30.909 +03:00 [INF] User profile is available. Using 'C:\Users\aisht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-07-29 17:30:31.160 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:30:31.309 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:30:31.399 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:30:31.399 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:31.403 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:30:31.816 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:30:31.971 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:32.159 +03:00 [INF] Executed action /Index in 846.46250000000009ms
+2018-07-29 17:30:32.181 +03:00 [INF] Request finished in 1021.0607ms 200 text/html; charset=utf-8
+2018-07-29 17:30:32.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/lib/bootstrap/dist/css/bootstrap.css  
+2018-07-29 17:30:32.233 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 17:30:32.234 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2018-07-29 17:30:32.293 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\js\site.js'
+2018-07-29 17:30:32.293 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\css\site.css'
+2018-07-29 17:30:32.293 +03:00 [INF] Request finished in 58.52ms 200 application/javascript
+2018-07-29 17:30:32.293 +03:00 [INF] Request finished in 59.4622ms 200 text/css
+2018-07-29 17:30:32.310 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-07-29 17:30:32.313 +03:00 [INF] Request finished in 105.5939ms 200 text/css
+2018-07-29 17:30:32.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/favicon.ico  
+2018-07-29 17:30:32.483 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\favicon.ico'
+2018-07-29 17:30:32.483 +03:00 [INF] Request finished in 1.0129ms 200 image/x-icon
+2018-07-29 17:30:34.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:30:34.918 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:30:34.926 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:30:34.927 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:34.927 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:30:34.927 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:30:34.966 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:34.981 +03:00 [INF] Executed action /Books/Add in 62.642100000000006ms
+2018-07-29 17:30:34.981 +03:00 [INF] Request finished in 83.9074ms 200 text/html; charset=utf-8
+2018-07-29 17:30:36.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/  
+2018-07-29 17:30:36.764 +03:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing action /Index
+2018-07-29 17:30:36.764 +03:00 [INF] info: Executing GET /Index.
+2018-07-29 17:30:36.764 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:36.764 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:30:36.768 +03:00 [INF] info: Executed GET /Index. in 0 s.
+2018-07-29 17:30:36.772 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:36.773 +03:00 [INF] Executed action /Index in 9.007ms
+2018-07-29 17:30:36.773 +03:00 [INF] Request finished in 9.8603ms 200 text/html; charset=utf-8
+2018-07-29 17:30:36.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/css/site.css  
+2018-07-29 17:30:36.949 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\aisht\Documents\Visual Studio 2017\Projects\Razor Pages Exercise\BookLibrary.Web\wwwroot\css\site.css'
+2018-07-29 17:30:36.950 +03:00 [INF] Request finished in 100.6612ms 200 text/css
+2018-07-29 17:30:37.806 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:30:37.820 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:30:37.826 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:30:37.826 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:37.826 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:37.826 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:30:37.827 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:30:37.827 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 6.2032000000000007ms
+2018-07-29 17:30:37.828 +03:00 [INF] Request finished in 21.2219ms 302 
+2018-07-29 17:30:37.847 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:30:37.848 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:30:37.848 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:30:37.848 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:37.854 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:30:37.858 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2477ms.
+2018-07-29 17:30:37.858 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:30:37.867 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:30:37.922 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:37.938 +03:00 [INF] Executed ViewResult - view Login executed in 77.4201ms.
+2018-07-29 17:30:37.938 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 90.156500000000008ms
+2018-07-29 17:30:37.939 +03:00 [INF] Request finished in 92.0986ms 200 text/html; charset=utf-8
+2018-07-29 17:30:41.439 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/Add  
+2018-07-29 17:30:41.439 +03:00 [INF] Route matched with {action = "Add", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web)
+2018-07-29 17:30:41.439 +03:00 [INF] info: Executing GET Movies.Add
+2018-07-29 17:30:41.440 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:41.440 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:41.440 +03:00 [INF] info: Executed GET Movies.Add in 0 s.
+2018-07-29 17:30:41.440 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:30:41.440 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.Add (BookLibrary.Web) in 0.3508ms
+2018-07-29 17:30:41.440 +03:00 [INF] Request finished in 0.7972ms 302 
+2018-07-29 17:30:41.454 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:30:41.455 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:30:41.455 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:30:41.455 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:41.455 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:30:41.455 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0221ms.
+2018-07-29 17:30:41.455 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:30:41.455 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:30:41.456 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:41.457 +03:00 [INF] Executed ViewResult - view Login executed in 1.5782ms.
+2018-07-29 17:30:41.457 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 2.0969ms
+2018-07-29 17:30:41.457 +03:00 [INF] Request finished in 2.5532ms 200 text/html; charset=utf-8
+2018-07-29 17:30:42.289 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:30:42.289 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:30:42.289 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:30:42.289 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:42.289 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:30:42.289 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0051ms.
+2018-07-29 17:30:42.289 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:30:42.289 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:30:42.290 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:42.290 +03:00 [INF] Executed ViewResult - view Login executed in 1.052ms.
+2018-07-29 17:30:42.290 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.338ms
+2018-07-29 17:30:42.290 +03:00 [INF] Request finished in 1.7927ms 200 text/html; charset=utf-8
+2018-07-29 17:30:43.541 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Movies/All  
+2018-07-29 17:30:43.542 +03:00 [INF] Route matched with {action = "All", controller = "Movies", page = ""}. Executing action BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web)
+2018-07-29 17:30:43.542 +03:00 [INF] info: Executing GET Movies.All
+2018-07-29 17:30:43.542 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:43.542 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:30:43.554 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.147ms.
+2018-07-29 17:30:43.554 +03:00 [INF] info: Executed GET Movies.All in 0 s.
+2018-07-29 17:30:43.556 +03:00 [INF] Executing ViewResult, running view All.
+2018-07-29 17:30:43.563 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:43.564 +03:00 [INF] Executed ViewResult - view All executed in 9.7272ms.
+2018-07-29 17:30:43.564 +03:00 [INF] Executed action BookLibrary.Web.Controllers.MoviesController.All (BookLibrary.Web) in 21.366500000000002ms
+2018-07-29 17:30:43.564 +03:00 [INF] Request finished in 23.0834ms 200 text/html; charset=utf-8
+2018-07-29 17:30:44.596 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Borrowers/Add  
+2018-07-29 17:30:44.602 +03:00 [INF] Route matched with {page = "/Borrowers/Add", action = "", controller = ""}. Executing action /Borrowers/Add
+2018-07-29 17:30:44.603 +03:00 [INF] info: Executing GET /Borrowers/Add.
+2018-07-29 17:30:44.603 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:44.603 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:44.603 +03:00 [INF] info: Executed GET /Borrowers/Add. in 0 s.
+2018-07-29 17:30:44.603 +03:00 [INF] Executing RedirectResult, redirecting to /Users/Login.
+2018-07-29 17:30:44.603 +03:00 [INF] Executed action /Borrowers/Add in 0.8438ms
+2018-07-29 17:30:44.603 +03:00 [INF] Request finished in 7.8313ms 302 
+2018-07-29 17:30:44.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Users/Login  
+2018-07-29 17:30:44.620 +03:00 [INF] Route matched with {action = "Login", controller = "Users", page = ""}. Executing action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web)
+2018-07-29 17:30:44.620 +03:00 [INF] info: Executing GET Users.Login
+2018-07-29 17:30:44.620 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:44.620 +03:00 [INF] Executing action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) - Validation state: "Valid"
+2018-07-29 17:30:44.620 +03:00 [INF] Executed action method BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0055000000000000005ms.
+2018-07-29 17:30:44.620 +03:00 [INF] info: Executed GET Users.Login in 0 s.
+2018-07-29 17:30:44.620 +03:00 [INF] Executing ViewResult, running view Login.
+2018-07-29 17:30:44.621 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:44.621 +03:00 [INF] Executed ViewResult - view Login executed in 1.1709ms.
+2018-07-29 17:30:44.621 +03:00 [INF] Executed action BookLibrary.Web.Controllers.UsersController.Login (BookLibrary.Web) in 1.4376ms
+2018-07-29 17:30:44.622 +03:00 [INF] Request finished in 1.8469ms 200 text/html; charset=utf-8
+2018-07-29 17:30:46.159 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44354/Books/Add  
+2018-07-29 17:30:46.159 +03:00 [INF] Route matched with {page = "/Books/Add", action = "", controller = ""}. Executing action /Books/Add
+2018-07-29 17:30:46.159 +03:00 [INF] info: Executing GET /Books/Add.
+2018-07-29 17:30:46.159 +03:00 [INF] info: Model state: Valid
+2018-07-29 17:30:46.159 +03:00 [INF] Executing handler method OnGet with arguments (null) - ModelState is "Valid"
+2018-07-29 17:30:46.159 +03:00 [INF] info: Executed GET /Books/Add. in 0 s.
+2018-07-29 17:30:46.162 +03:00 [INF] Accessing expired session, Key:a4715799-1505-0803-a198-77bf86297be1
+2018-07-29 17:30:46.162 +03:00 [INF] Executed action /Books/Add in 3.1814ms
+2018-07-29 17:30:46.163 +03:00 [INF] Request finished in 3.6839ms 200 text/html; charset=utf-8

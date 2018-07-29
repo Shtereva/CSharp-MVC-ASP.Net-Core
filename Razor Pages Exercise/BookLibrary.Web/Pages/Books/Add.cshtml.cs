@@ -6,7 +6,9 @@
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
     using System.Linq;
+    using Filters;
 
+    [Authorize]
     public class AddModel : PageModel
     {
         private readonly BookLibraryDbContext db;

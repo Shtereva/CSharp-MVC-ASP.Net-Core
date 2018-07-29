@@ -28,7 +28,7 @@ namespace BookLibrary.Web.Controllers
                 return this.View();
             }
 
-            var modelPassHash = this.GetPasswordHash(model.PasswordHash);
+            var modelPassHash = this.GetPasswordHash(model.Password);
 
             var user = this.db.Users
                 .SingleOrDefault(u =>
@@ -47,7 +47,7 @@ namespace BookLibrary.Web.Controllers
         [Authorize]
         public IActionResult Logout()
         {
-            this.HttpContext.Session.Remove(CurrentUserSessionKey);
+            this.HttpContext.Session.Clear();
 
             return this.RedirectToPage("/Index");
         }
