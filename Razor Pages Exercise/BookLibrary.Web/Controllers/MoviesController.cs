@@ -8,6 +8,7 @@ namespace BookLibrary.Web.Controllers
     using BindingModels;
     using BookLibray.Models;
     using Data;
+    using Filters;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
     using Models;
@@ -116,6 +117,8 @@ namespace BookLibrary.Web.Controllers
         [HttpPost]
         public IActionResult Borrow(BorrowBookBindingModel model)
         {
+            
+
             var borrower = this.db.Borrowers
                 .Where(b => b.Name == model.Name)
                 .Include(b => b.Movies)

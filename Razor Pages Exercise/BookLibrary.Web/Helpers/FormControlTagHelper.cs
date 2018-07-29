@@ -10,14 +10,23 @@
     {
         [HtmlAttributeName("asp-for")]
         public ModelExpression For { get; set; }
-        public override void Process(TagHelperContext context, TagHelperOutput output)
+
+        private IHtmlGenerator generator;
+
+        public FormControlTagHelper(IHtmlGenerator generator)
+        {
+            this.generator = generator;
+        }
+
+        public override async void Process(TagHelperContext context, TagHelperOutput output)
         {
             var result = new StringBuilder();
 
-            result.AppendLine(@"<div class=""form - group"">");
+            result.AppendLine(@"<div class=""form-group"">");
 
-           
+            await new LabelTagHelper(this.generator).ProcessAsync(context, output);
 
+            result.AppendLine("</div>");
             output.Content.SetHtmlContent(result.ToString());
         }
     }

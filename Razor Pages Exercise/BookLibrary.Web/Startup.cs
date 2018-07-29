@@ -12,7 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BookLibrary.Web
 {
+    using System.Diagnostics;
     using Data;
+    using Filters;
+    using Microsoft.Extensions.Logging;
 
     public class Startup
     {
@@ -35,7 +38,32 @@ namespace BookLibrary.Web
 
             services.AddDbContext<BookLibraryDbContext>();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            //services.AddLogging(config =>
+            //{
+            //    config.AddConsole();
+            //    config.AddDebug();
+            //});
+
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<LogExecution>();
+                options.Filters.Add<LogException>();
+            })
+            .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddScoped<Stopwatch>();
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddSession(conf =>
+            {
+                conf.IdleTimeout = TimeSpan.FromMinutes(30);
+                conf.Cookie.HttpOnly = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +82,7 @@ namespace BookLibrary.Web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseSession();
 
             app.UseMvcWithDefaultRoute();
         }
