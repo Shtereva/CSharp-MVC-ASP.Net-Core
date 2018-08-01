@@ -15,8 +15,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace SoftUniClone.Web
 {
-    using Models;
-
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -39,22 +37,8 @@ namespace SoftUniClone.Web
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDefaultIdentity<User>(options =>
-                {
-                    options.SignIn.RequireConfirmedEmail = true;
-                })
+            services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
-            services.Configure<IdentityOptions>(options =>
-            {
-                options.Password.RequireDigit = false;
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequiredLength = 3;
-
-                options.Lockout.MaxFailedAccessAttempts = 3;
-                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
