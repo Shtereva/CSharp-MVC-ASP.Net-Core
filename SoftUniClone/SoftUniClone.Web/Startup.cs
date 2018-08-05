@@ -1,20 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SoftUniClone.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace SoftUniClone.Web
 {
+    using Data;
+    using SoftUniClone.Models;
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -34,11 +31,41 @@ namespace SoftUniClone.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<SoftUniCloneDbContext>(options =>
+                options.UseSqlServer(
+                    this.Configuration.GetConnectionString("DefaultConnection")
+                    , b => b.MigrationsAssembly("SoftUniClone.Data")
+                    ));
 
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddDefaultIdentity<User>()
+                .AddEntityFrameworkStores<SoftUniCloneDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddAuthentication()
+            //    .AddFacebook(options =>
+            //    {
+            //        options.AppId = "";
+            //        options.AppSecret = "";
+            //    })
+                .AddGoogle(options =>
+                {
+                    options.ClientId = @"438901230714-3faocrcb23htiqi3gt6gq2vcf4a5acu9.apps.googleusercontent.com";
+                    options.ClientSecret = @"36slxAGSXjq0e7D8Aq-iTU_E";
+                })
+                .AddGitHub(options =>
+                {
+                    options.ClientId = "401cdd683c9a6b873783";
+                    options.ClientSecret = "3d3501d42d25e4dd2dd36e42e48edaeef2f57502";
+                });
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireDigit = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredUniqueChars = 0;
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -62,6 +89,8 @@ namespace SoftUniClone.Web
             app.UseCookiePolicy();
 
             app.UseAuthentication();
+
+
 
             app.UseMvc(routes =>
             {

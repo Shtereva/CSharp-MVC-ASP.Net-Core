@@ -9,7 +9,7 @@ namespace SoftUniClone.Data.Migrations
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata;
 
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(SoftUniCloneDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
