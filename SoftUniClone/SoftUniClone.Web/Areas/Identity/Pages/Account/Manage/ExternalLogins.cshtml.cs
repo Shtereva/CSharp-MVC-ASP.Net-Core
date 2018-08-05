@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using SoftUniClone.Models;
-
-namespace SoftUniClone.Web.Areas.Identity.Pages.Account.Manage
+﻿namespace SoftUniClone.Web.Areas.Identity.Pages.Account.Manage
 {
+    using Microsoft.AspNetCore.Authentication;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.RazorPages;
+    using SoftUniClone.Models;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+
     public class ExternalLoginsModel : PageModel
     {
         private readonly UserManager<User> _userManager;

@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace SoftUniClone.Data
+﻿namespace SoftUniClone.Data
 {
     using Configurations;
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
     using Models;
 
     public class SoftUniCloneDbContext : IdentityDbContext<User>

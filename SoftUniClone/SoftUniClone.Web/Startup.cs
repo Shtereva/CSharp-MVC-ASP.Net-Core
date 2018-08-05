@@ -1,15 +1,16 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace SoftUniClone.Web
+﻿namespace SoftUniClone.Web
 {
+    using AutoMapper;
+    using Common;
     using Data;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
     using SoftUniClone.Models;
 
     public class Startup
@@ -37,9 +38,10 @@ namespace SoftUniClone.Web
                     , b => b.MigrationsAssembly("SoftUniClone.Data")
                     ));
 
-            services.AddDefaultIdentity<User>()
-                .AddEntityFrameworkStores<SoftUniCloneDbContext>()
-                .AddDefaultTokenProviders();
+            services.AddIdentity<User, IdentityRole>()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<SoftUniCloneDbContext>();
 
             services.AddAuthentication()
             //    .AddFacebook(options =>
@@ -67,11 +69,17 @@ namespace SoftUniClone.Web
                 options.Password.RequiredUniqueChars = 0;
             });
 
+            services.AddAutoMapper();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(
+            IApplicationBuilder app,
+            IHostingEnvironment env,
+            UserManager<User> userManager,
+            RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -90,10 +98,15 @@ namespace SoftUniClone.Web
 
             app.UseAuthentication();
 
-
+            app.SeedDatabase();
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "areas",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
