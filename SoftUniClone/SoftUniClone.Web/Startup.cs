@@ -69,6 +69,9 @@
                 options.Password.RequiredUniqueChars = 0;
             });
 
+            Mapper.Initialize(x => x.AddProfile<AutoMapperProfile>());
+            Mapper.Configuration.AssertConfigurationIsValid();
+
             services.AddAutoMapper();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
